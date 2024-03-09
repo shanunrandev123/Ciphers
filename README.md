@@ -35,6 +35,14 @@ so, if we decrypt the message correctly, the model should return a high probabil
 P(X(T) | X(T - 1), X(t - 2), X(t - 3)) = P(X(t) | X(t - 1))
 
 
+## Practical Issue
+Probabilities are small, assume they are around 0.15 on average(overestimate)
+
+What will happen if we have a 100 character long sentence? - Probability = 10 ^ -100. Probabilities will get so small that they will get rounded to zero 
+
+To solve this problem we employ Log-Likelihood
+
+
 
 
 
