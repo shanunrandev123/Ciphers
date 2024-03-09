@@ -40,7 +40,20 @@ Probabilities are small, assume they are around 0.15 on average(overestimate)
 
 What will happen if we have a 100 character long sentence? - Probability = 10 ^ -100. Probabilities will get so small that they will get rounded to zero 
 
-To solve this problem we employ Log-Likelihood
+To solve this problem we employ ## Log-Likelihood
+
+# How to use the language model?
+
+## Naive approach - 
+
+1.Get all the possible decryption maps and initialise a minimum log likelihood value and best message as None.
+2. Then we loop through each map and decode the encrypted message and calculate the log likelihood, if the calculated log likelihood is greater than the initialised log likelihood value we update the value and in this way we can find the best log likelihood message.
+
+## This approach is quite infeasible and it will take billions of years to compute this.
+
+
+## To solve this issue we employ Genetic Algorithms
+
 
 
 
