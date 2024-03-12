@@ -1,4 +1,4 @@
-# Substituion Ciphers
+# Substitution Ciphers
 
                                                              
 They are one of the oldest and simplest methods of encryption. They involve replacing plain text letters or characters with others in a fixed pattern to create a cipher text.
